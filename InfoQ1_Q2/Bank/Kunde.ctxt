@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Kunde
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Kunde.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=kdnr\ name
+comment1.target=Kunde(int,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Kunde\r\n
+comment2.params=
+comment2.target=int\ getkdnr()
+comment2.text=\r\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\r\n\ \r\n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\r\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\r\n
+comment3.params=neuekdnr
+comment3.target=void\ setkdnr(int)
+comment4.params=
+comment4.target=java.lang.String\ getname()
+comment5.params=neuename
+comment5.target=void\ setname(java.lang.String)
+comment6.params=meinKonto
+comment6.target=void\ setmeinKonto(Konto)
+comment7.params=
+comment7.target=Konto\ getmeinKonto()
+numComments=8

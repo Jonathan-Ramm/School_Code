@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root text="&#34;int main(int argc, char** argv)&#34;" comment="" type="program" style="nice">
+ <children>
+
+<instruction text="superplus=1.95;" comment="" color="80FF80" rotated="0"></instruction>
+<instruction text="&#34;supere10	 = 1.86;&#34;" comment="" color="80FF80" rotated="0"></instruction>
+<instruction text="&#34;diesel		 = 1.68;&#34;" comment="" color="80FF80" rotated="0"></instruction>
+<instruction text="&#34;		cout&#60;&#60;&#34;&#34;Das ist ein Benzinrechner, der den Verbrauch und die Kosten je 100km berechnet\n&#34;&#34;;&#34;,&#34;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Geben sie die gefahrenen km ein:&#34;&#34;&#60;&#60;endl;&#34;,&#34;		cin&#62;&#62;gefahrenekm;&#34;,&#34;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Geben sie die verbrauchten liter ein:&#34;&#34;&#60;&#60;endl;&#34;,&#34;		cin&#62;&#62;verbrauchteliter;&#34;,&#34;	&#34;,,&#34;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Geben sie den benutzten Kraftstoff ein: (1:SuperPlus; 2:SuperE10; 3:Diesel)&#34;&#34;&#60;&#60;endl;&#34;,&#34;		cin&#62;&#62;kraftstoff;&#34;" comment="" color="80FF80" rotated="0"></instruction>
+<alternative text="&#34;(kraftstoff &#62;3 ||kraftstoff &#60;1)&#34;" comment="" color="FF8080">
+ <qTrue>
+
+<repeat text="&#34;kraftstoff &#62;3 ||kraftstoff &#60;1&#34;" comment="" color="80FFFF">
+ <qRepeat>
+
+<instruction text="&#34;cout&#60;&#60;&#34;&#34;Wir fahren doch nicht mit Atomenergie!!&#34;&#34;;&#34;,&#34;			cout&#60;&#60;&#34;&#34;Geben sie den benutzten Kraftstoff ein: (1:SuperPlus; 2:SuperE10; 3:Diesel)&#34;&#34;&#60;&#60;endl;&#34;,&#34;			cin&#62;&#62;kraftstoff;&#34;" comment="" color="80FF80" rotated="0"></instruction>
+ </qRepeat>
+</repeat>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+<alternative text="(kraftstoff==1)" comment="" color="FF8080">
+ <qTrue>
+
+<instruction text="&#34;	x=verbrauchteliter*100/gefahrenekm;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Sie verbrauchen &#34;&#34;&#60;&#60;x&#60;&#60;&#34;&#34; Liter pro 100km&#34;&#34;&#60;&#60;endl;&#34;,&#34;		y=x*superplus;&#34;,&#34;		cout&#60;&#60;&#34;&#34;Ihr Sprit kostet &#34;&#34;&#60;&#60;y&#60;&#60;&#34;&#34; Euro pro 100km&#34;&#34;&#60;&#60;endl;&#34;" comment="" color="80FF80" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+<alternative text="(kraftstoff==2)" comment="" color="FF8080">
+ <qTrue>
+
+<instruction text="&#34;x=verbrauchteliter*100/gefahrenekm;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Sie verbrauchen &#34;&#34;&#60;&#60;x&#60;&#60;&#34;&#34; Liter pro 100km&#34;&#34;&#60;&#60;endl;&#34;,&#34;		y=x*supere10;&#34;,&#34;		cout&#60;&#60;&#34;&#34;Ihr Sprit kostet &#34;&#34;&#60;&#60;y&#60;&#60;&#34;&#34; Euro pro 100km&#34;&#34;&#60;&#60;endl;	&#34;,&#34;	&#34;" comment="" color="80FF80" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+<alternative text="(kraftstoff==3)" comment="" color="FF8080">
+ <qTrue>
+
+<instruction text="&#34;x=verbrauchteliter*100/gefahrenekm;	&#34;,&#34;		cout&#60;&#60;&#34;&#34;Sie verbrauchen &#34;&#34;&#60;&#60;x&#60;&#60;&#34;&#34; Liter pro 100km&#34;&#34;&#60;&#60;endl;&#34;,&#34;		y=x*diesel;&#34;,&#34;		cout&#60;&#60;&#34;&#34;Ihr Sprit kostet &#34;&#34;&#60;&#60;y&#60;&#60;&#34;&#34; Euro pro 100km&#34;&#34;&#60;&#60;endl;		&#34;" comment="" color="80FF80" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+ </qFalse>
+</alternative>
+ </children>
+</root>

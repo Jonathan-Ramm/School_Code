@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CD
+comment1.params=Titel\ spielzeit\ Kuenstler\ Titelanzahl
+comment1.target=CD(java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ gibKuenstler()
+comment3.params=
+comment3.target=int\ Titelanzahl()
+numComments=4

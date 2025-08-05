@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Konto
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Konto.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=besitzerName
+comment1.target=Konto(java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Konto\r\n
+comment2.params=neuerName
+comment2.target=void\ setbesitzerName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getbesitzerName()
+comment4.params=Betrag
+comment4.target=void\ einzahlen(double)
+comment5.params=Betrag
+comment5.target=void\ auszahlen(double)
+comment6.params=Menge
+comment6.target=void\ setkontostand(double)
+comment7.params=
+comment7.target=double\ getkontostand()
+comment8.params=
+comment8.target=void\ abr\u00E4umen()
+comment9.params=Zinssatz
+comment9.target=void\ bucheZinsen(double)
+numComments=10

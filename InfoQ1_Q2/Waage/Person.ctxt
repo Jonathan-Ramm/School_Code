@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Person
+comment1.params=
+comment1.target=Person()
+comment2.params=
+comment2.target=void\ Idealgewicht()
+comment3.params=neuesGewicht
+comment3.target=void\ setGewicht(double)
+comment4.params=neueGroe\u00DFe
+comment4.target=void\ setGroe\u00DFe(double)
+comment5.params=
+comment5.target=double\ getGewicht()
+comment6.params=
+comment6.target=double\ getGroe\u00DFe()
+comment7.params=
+comment7.target=void\ Differenz()
+comment8.params=
+comment8.target=void\ anzeigen()
+comment9.params=
+comment9.target=double\ gibDifferenz()
+numComments=10

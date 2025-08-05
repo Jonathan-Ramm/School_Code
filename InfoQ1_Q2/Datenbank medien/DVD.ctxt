@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DVD
+comment1.params=Titel\ spielzeit\ derRegisseur
+comment1.target=DVD(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ gibRegisseur()
+numComments=3

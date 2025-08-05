@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=KREISFORM()
+comment0.text=\nDieser\ Konstruktor\ erzeugt\ einen\ Kreis\n\n
+comment1.params=radius
+comment1.target=void\ RadiusSetzen(int)
+comment1.text=\n@param\ radius\ Der\ neue\ Radius\ in\ Pixel\n\n
+comment2.params=winkel
+comment2.target=void\ StartWinkelSetzen(int)
+comment2.text=\n@param\ winkel\ Der\ neue\ Startwinkel\ in\ Grad\n\n
+comment3.params=winkel
+comment3.target=void\ BogenWinkelSetzen(int)
+comment3.text=\n@param\ winkel\ Der\ neue\ Bogenwinkel\ in\ Grad\n\n
+comment4.params=bogenArt
+comment4.target=void\ BogenArtSetzen(int)
+comment4.text=\n@param\ bogenArt\ Die\ Bogenart\n0\ -\ offen,\n1\ -\ Segment,\n2\ -\ Kuchenst?ck\n\n
+comment5.params=farbe
+comment5.target=void\ FarbeSetzen(String)
+comment5.text=\n@param\ farbe\ Die\ neue\ Farbe\ als\ Zeichenkette\n\n
+numComments=6
