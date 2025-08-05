@@ -1,7 +1,0 @@
-zahlen([1,2,3,4,5,6,7,8,9]).
-
-finde(A,B,C,D,E,F,G,H,I):- zahlen(L), member(A,L), member(B,L), member(C,L), member(D,L), member(E,L), member(F,L), member(G,L), member(H,L), member(I,L).
-teste(A,B,C,D,E,F,G,H,I):- X is A+B+C, X is D+E+F, X is G+H+I, X is A+D+G, X is B+E+H, X is C+F+I, X is A+E+I, X is C+E+G, A\=B,A\=C,C\=B,A\=B,D\=E,D\=F,F\=E,G\=H, G\=I,H\=I,
-                           A\=D, A\=G,D\=G,A\=F,D\=B,D\=I,A\=H,C\=E,C\=G.
-                           
-erzeuge(A,B,C,D,E,F,G,H,I):-finde(A,B,C,D,E,F,G,H,I),teste(A,B,C,D,E,F,G,H,I).
