@@ -1,0 +1,35 @@
+%Eine internationale Grossreederei verwaltet ihre Schiffe
+%(Kuehlschiffe, Tanker, Containerschiffe) mit Hilfe eines
+%Expertensystems.
+%Ausgangspunkt sind die folgenden Tabellen (gezeigt werden nur Ausschnitte!):
+
+%schiff(Schiffsname,Tiefgang ,Schiffstyp, Heimathafen).
+schiff(seabeauty, 24, kuehlschiff, genua).
+schiff(myfair, 36, tanker,  lissabon).
+schiff(maris, 28, container, tripolis).
+schiff(bounty, 31, container, hamburg).
+schiff(ekran, 29, tanker, petersburg).
+
+
+%hafen(Hafenstadt,im Land,Wassertiefe des Hafens).
+hafen(tripolis, libyen, 38).
+hafen(madras, indien, 40).
+hafen(shanghai, china, 44).
+hafen(rostock,deutschland,28).
+
+% route(Schiff, Von , Nach).
+route(claudia, beirut, singapur).
+route(seabeauty, hamburg, mombasa).
+route(maris, aden, montevideo).
+route(myfair, rostock, montevideo).
+route(bounty,tripolis,bremen).
+route(ekran,madras,shanghai).
+
+
+% Wie heißen die Kühlschiffe der Reederei?
+% Bei welchen Tankern liegt der Tiefgang über 30 m?
+% Welche Schiffe sind nach Mombasa unterwegs?
+% In welchen Ländern liegen Tripoli oder Tripolis ?
+% Welche Tanker sind unterwegs zum Hafen Montevideo?
+% Gesucht sind die Routen aller Containerschiff?
+% Welche Schiffe sind gerade von Indien nach China unterwegs?
