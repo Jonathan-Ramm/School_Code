@@ -1,0 +1,17 @@
+% :- dynamic (init/0)
+% :- assert (anhängen)
+% :- retract (wegwerfen)
+
+:-dynamic init/0.
+kopf([K|_],K).
+rumpf([_|R],R).
+
+init:-assert(queue([])).
+
+isEmpty:-queue([]).
+
+enQ(El):-queue(Queue),append([El],Queue,NewQueue),retract(queue(Queue)),assert(queue(NewQueue)).
+
+deQ:-queue(Queue),rumpf(Queue,NewQueue),write(Queue),retract(queue(Queue)),assert(queue(NewQueue)).
+
+first:-queue(Queue),rumpf(Queue,NewQueue),retract(queue(Queue)),assert(queue(NewQueue)).

@@ -1,0 +1,48 @@
+male(abraham).
+male(clancy).
+male(herb).
+male(homer).
+male(bart).
+
+female(mona).
+female(jackie).
+female(marge).
+female(patty).
+female(selma).
+female(lisa).
+female(maggie).
+female(ling).
+
+parent(abraham, herb).
+parent(abraham, homer).
+
+parent(clancy, marge).
+parent(clancy, patty).
+parent(clancy, selma).
+
+parent(homer, bart).
+parent(homer, lisa).
+parent(homer, maggie).
+
+parent(mona, herb).
+parent(mona, homer).
+
+parent(jackie, marge).
+parent(jackie, patty).
+parent(jackie, selma).
+
+parent(marge, bart).
+parent(marge, lisa).
+parent(marge, maggie).
+
+parent(selma, ling).
+
+% parent(Eltern, Kind).
+
+mother(M,K):-parent(M,K), female(M).
+father(V,K):-parent(V,K), male(V).
+grandfather(Opa,Enkel):-parent(E,Enkel), father(Opa, E).
+aunt(A,K):-parent(F,K), parent(O,F), parent(O,A), A\==F, female(A).
+
+ancestors(A,K):-parent(A,K).
+ancestors(A,K):-parent(P,K), ancestors(A,P).
